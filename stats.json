@@ -1,0 +1,58 @@
+{
+  "assetsByChunkName": {
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-238e8a7cc7ee911e1288.js",
+      "component---src-pages-index-js-238e8a7cc7ee911e1288.js.map"
+    ],
+    "path---xkcd-plots": [
+      "path---xkcd-plots-c4e906f58752994fa928.js",
+      "path---xkcd-plots-c4e906f58752994fa928.js.map"
+    ],
+    "path---": [
+      "path----0f3eaa322982cb9da81a.js",
+      "path----0f3eaa322982cb9da81a.js.map"
+    ],
+    "path---three-body-problem": [
+      "path---three-body-problem-14a96f2911f89d38f727.js",
+      "path---three-body-problem-14a96f2911f89d38f727.js.map"
+    ],
+    "component---src-templates-blog-post-js": [
+      "component---src-templates-blog-post-js-2a326f0347781f209583.js",
+      "component---src-templates-blog-post-js-2a326f0347781f209583.js.map"
+    ],
+    "component---src-layouts-index-js": [
+      "component---src-layouts-index-js-78e3978fd73640c5b781.js",
+      "component---src-layouts-index-js-78e3978fd73640c5b781.js.map"
+    ],
+    "path---index": [
+      "path---index-a0e39f21c11f6a62c5ab.js",
+      "path---index-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
+      "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
+    ],
+    "commons": [
+      "commons-843317fae9e7315047a3.js",
+      "commons-843317fae9e7315047a3.js.map"
+    ],
+    "path---404-html": [
+      "path---404-html-a0e39f21c11f6a62c5ab.js",
+      "path---404-html-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "path---minimal-nodejs-notebook": [
+      "path---minimal-nodejs-notebook-d12a0cc24de7b4011448.js",
+      "path---minimal-nodejs-notebook-d12a0cc24de7b4011448.js.map"
+    ],
+    "app": [
+      "app-e8178da22ed33430543a.js",
+      "build-js-styles.css",
+      "app-e8178da22ed33430543a.js.map",
+      "build-js-styles.css.map"
+    ],
+    "path---404": [
+      "path---404-a0e39f21c11f6a62c5ab.js",
+      "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ]
+  }
+}
