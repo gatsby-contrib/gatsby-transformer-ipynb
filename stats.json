@@ -1,24 +1,24 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-96209404a7180756be0e.js",
-      "component---src-pages-index-js-96209404a7180756be0e.js.map"
+      "component---src-pages-index-js-acd16c2c82af9ed9d928.js",
+      "component---src-pages-index-js-acd16c2c82af9ed9d928.js.map"
     ],
     "path---xkcd-plots": [
-      "path---xkcd-plots-33416b73412e255c8b51.js",
-      "path---xkcd-plots-33416b73412e255c8b51.js.map"
+      "path---xkcd-plots-fabc35cabd4673c85cc0.js",
+      "path---xkcd-plots-fabc35cabd4673c85cc0.js.map"
     ],
     "path---": [
       "path----0f3eaa322982cb9da81a.js",
       "path----0f3eaa322982cb9da81a.js.map"
     ],
     "path---three-body-problem": [
-      "path---three-body-problem-5d5f6b55a463b857952e.js",
-      "path---three-body-problem-5d5f6b55a463b857952e.js.map"
+      "path---three-body-problem-70e95673c833dd995439.js",
+      "path---three-body-problem-70e95673c833dd995439.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-a2906b5921af30795c50.js",
-      "component---src-layouts-index-js-a2906b5921af30795c50.js.map"
+      "component---src-layouts-index-js-0b82b1ef4a2514b435d1.js",
+      "component---src-layouts-index-js-0b82b1ef4a2514b435d1.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -39,17 +39,17 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "path---minimal-nodejs-notebook": [
-      "path---minimal-nodejs-notebook-1cea52e192f47c17592c.js",
-      "path---minimal-nodejs-notebook-1cea52e192f47c17592c.js.map"
+      "path---minimal-nodejs-notebook-49561fcf266aa4e526af.js",
+      "path---minimal-nodejs-notebook-49561fcf266aa4e526af.js.map"
     ],
     "component---src-templates-notebook-js": [
-      "component---src-templates-notebook-js-42c139ed584f288e16d5.js",
-      "component---src-templates-notebook-js-42c139ed584f288e16d5.js.map"
+      "component---src-templates-notebook-js-30452070f3203511509f.js",
+      "component---src-templates-notebook-js-30452070f3203511509f.js.map"
     ],
     "app": [
-      "app-7f46f954e90c783e1cb5.js",
+      "app-6cd1c1dba9dc0c78f59a.js",
       "build-js-styles.css",
-      "app-7f46f954e90c783e1cb5.js.map",
+      "app-6cd1c1dba9dc0c78f59a.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
