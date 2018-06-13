@@ -1,0 +1,13 @@
+# Project dependencies
+.cache
+node_modules
+yarn-error.log
+
+# Builds
+public
+gatsby-config.js
+gatsby-node.js
+
+
+# notebook checkpoints
+.ipynb_checkpoints
