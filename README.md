@@ -4,11 +4,11 @@ This site is an example on how to use [`@nteract/gatsby-transformer-ipynb`](http
 
 ## Run example locally
 
-        npm i
-        npm start
+        yarn
+        yarn start
 
 ## Publish to gh-pages
 
-        npm start deploy
+        yarn run deploy
 
 The example folder is published at: <https://gatsby-contrib.github.io/gatsby-transformer-ipynb/>
