@@ -1,2 +1,2 @@
-webpackJsonp([60335399758886],{108:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Using gatsby-transformer-ipynb"}}},layoutContext:{}}}});
+webpackJsonp([60335399758886],{111:function(t,a){t.exports={data:{site:{siteMetadata:{title:"Using gatsby-transformer-ipynb"}}},layoutContext:{}}}});
 //# sourceMappingURL=path----0f3eaa322982cb9da81a.js.map
