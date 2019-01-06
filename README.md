@@ -1,14 +1,68 @@
-# gatsby-transformer-example-site
+# gatsby-transformer-ipynb
 
-This site is an example on how to use [`@nteract/gatsby-transformer-ipynb`](https://github.com/nteract/nteract/tree/master/packages/gatsby-transformer-ipynb) to build a gatsby site using jupyter notebooks as source of data.
+Parses [jupyter](https://jupyter.org/) notebook files.
 
-## Run example locally
+<!-- See it in action: <https://gatsby-contrib.github.io/gatsby-transformer-ipynb/> -->
 
-        yarn
-        yarn start
+## Install
 
-## Publish to gh-pages
+`npm install --save @gatsby-contrib/gatsby-transformer-ipynb`
 
-        yarn run deploy
+## How to use
 
-The example folder is published at: <https://gatsby-contrib.github.io/gatsby-transformer-ipynb/>
+```javascript
+// In your gatsby-config.js
+plugins: [`@gatsby-contrib/gatsby-transformer-ipynb`];
+```
+
+## Parsing algorithm
+
+It recognizes files with the `ipynb` extension.
+
+Each notebook file is parsed into a node of type `JupyterNotebook`.
+
+This plugin adds additional fields to the `JupyterNotebook` GraphQL type
+including:
+
+-   `html`: html string created using the react component `NotebookRender` from [`@gatsby-contrib/notebook-render`](https://github.com/nteract/nteract/tree/master/packages/notebook-render).
+-   `metadata`: jupyter notebooks can embed metadata to indicate authors, titles...
+-   `json`: the json notebook code converted into a javascript object with `JSON.parse`.
+-   `internal.content`: contains the raw notebook code, it can be used to feed the react component `NotebookPreview` from [`@gatsby-contrib/notebook-preview`](https://github.com/nteract/nteract/tree/master/packages/notebook-preview).
+
+## How to query
+
+A sample GraphQL query to get JupyterNotebook nodes:
+
+```graphql
+{
+  query
+  JupyterQuery {
+    allJupyterNotebook {
+      edges {
+        node {
+          id
+          metadata {
+            kernelspec {
+              name
+              language
+              display_name
+            }
+          }
+          html
+          json {
+            nbformat
+            nbformat_minor
+            cells {
+              cell_type
+              execution_count
+            }
+          }
+          internal {
+            content
+          }
+        }
+      }
+    }
+  }
+}
+```

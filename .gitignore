@@ -1,11 +1,7 @@
 # Project dependencies
-.cache
 node_modules
 yarn-error.log
 
 # Builds
-public
-
-
-# notebook checkpoints
-.ipynb_checkpoints
+/gatsby-node.js
+/on-node-create.js
