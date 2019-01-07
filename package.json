@@ -1,6 +1,6 @@
 {
   "name": "@gatsby-contrib/gatsby-transformer-ipynb",
-  "version": "0.5.6",
+  "version": "0.5.8",
   "description": "Search for gatsby; implemented via elasticlunr.",
   "main": "n/a",
   "scripts": {
